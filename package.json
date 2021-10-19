@@ -1,0 +1,20 @@
+{
+  "name": "pipefy-web-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run --browser chrome"
+  },
+  "author": "Cezar Vaz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cezarvaz/pipefy-web-automation.git"
+  },
+  "devDependencies": {
+    "cypress": "^8.6.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
